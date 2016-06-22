@@ -1,1 +1,6 @@
-CREATE TABLE Emootiban (emootiID varchar(20), timestamp date, group varchar(100), hashtag varchar(100), comment varchar (144));
+drop table Emootiban;
+create table Emootiban
+(Sequential INT NOT NULL AUTO_INCREMENT,
+JSON VARCHAR(140),
+CONSTRAINT Sequential_pk PRIMARY KEY (Sequential))
+;
